@@ -1,0 +1,4 @@
+name: ChatControl
+version: '${version}'
+main: net.foster.chatcontrol.ChatControl
+api-version: '1.18'

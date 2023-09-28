@@ -1,0 +1,33 @@
+database:
+  path: chatcontrol
+  table-name: chats
+  save-interval: 5
+
+defaults:
+  chat: global
+  base-color: 0xFFFFFF
+  name-color: 0x1dd2f7
+  message-color: 0xFFFFFF
+  range: 10
+  show-profanity: true
+
+chats:
+  global:
+    type: global
+    base-color: 0xFFFFFF
+    name-color: 0x520300
+    message-color: 0xFFFFFF
+  local:
+    type: local
+    range: 10
+    base-color: 0xFFFFFF
+    name-color: 0x1dd2f7
+    message-color: 0xFFFFFF
+  shout:
+    type: local
+    range: 1000
+  whisper:
+    type: local
+    range: 3
+
+profanity-words: [fuck, shit, word]
